@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.8.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.9
 MAINTAINER Grigoriy Gladkov <gagladkov@gmail.com>
 
 RUN mkdir /usr/share/elasticsearch/config/hunspell
